@@ -20,7 +20,7 @@ const client = new tmi.client(options);
 client.connect();
 
 client.on('connected', (address, port) => {
-  client.action('Ventispurr', 'Hi! VentispurrBot is connected');
+  client.action('Your channel name', 'The message you want the bot to say when its online');
 });
 
 client.on('chat', (channel, user, message, self) => {
