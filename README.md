@@ -7,6 +7,7 @@
   },
   channels:['YOUR TWITCH CHANNEL'],    <-- This is YOUR Twitch user handle.. make sure it matches exactly..
 };
+```
 
 # How to add Commands?
 
