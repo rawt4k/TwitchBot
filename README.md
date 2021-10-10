@@ -9,23 +9,29 @@
 };
 ```
 
-# How to add Commands?
+# How to know the bot started up?
 
 ```js
 client.on('connected', (address, port) => {
-  client.action('Ventispurr', 'Hi! VentispurrBot is connected');   <-- This is what the bot says on console startup..
-});
-
-client.on('chat', (channel, user, message, self) => {
-  if(message === '!ExampleCMD') {     <-- This is the command trigger you want.. 
-    client.action('Ventispurr', 'This is what the bot will say when the command is run');   <-- This is that will run once you say the command trigger
-  }
+  client.action('Ventispurr', 'Hi! VentispurrBot is connected');   
 });
 ```
-just copy the
+This is what the bot says on console startup.. its how you'll know the bot is connected to your chat
+
+# How to make a command
+```js
+client.on('chat', (channel, user, message, self) => {
+  if(message === '!ExampleCMD') {   
+    client.action('Ventispurr', 'This is what the bot will say when the command is run');
+});
+```
+This is a basic command for the bot.. inside the `if(message ==='!command')` is where youll put the trigger for the command.. Under that is the client action and thats what the bot says once the command is run..
+
+
+# How to add more commands
  ```js
 client.on('chat', (channel, user, message, self) => {
   if(message === '!ExampleCMD') {     
     client.action('Ventispurr', 'This is what the bot will say when the command is run');
 ``` 
-code and keep changing the client action and the command trigger for every command :D
+Just copy this code and keep changing the client action and the command trigger for every command :D
