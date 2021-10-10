@@ -35,3 +35,7 @@ client.on('chat', (channel, user, message, self) => {
     client.action('Ventispurr', 'This is what the bot will say when the command is run');
 ``` 
 Just copy this code and keep changing the client action and the command trigger for every command :D
+
+
+
+For any other questions you can join my [Discord](ventispurr.cool/discord) For help from me !
