@@ -9,6 +9,11 @@
 };
 ```
 
+# How to get OAUTH Token?
+Its pretty easy actually.. if you want an auto generated one you can use [This](https://twitchapps.com/tmi/) to get one auto generated.. just make sure you make a new twitch account for the bot before doing it.. Don't wanna have the bot being youself lol.
+
+
+
 # How to know the bot started up?
 
 ```js
