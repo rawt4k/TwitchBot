@@ -13,7 +13,6 @@
 Its pretty easy actually.. if you want an auto generated one you can use [This](https://twitchapps.com/tmi/) to get one auto generated.. just make sure you make a new twitch account for the bot before doing it.. Don't wanna have the bot being youself lol.
 
 
-
 # How to know the bot started up?
 
 ```js
@@ -41,6 +40,22 @@ client.on('chat', (channel, user, message, self) => {
 ``` 
 Just copy this code and keep changing the client action and the command trigger for every command :D
 
+# How do I make the bot start?
+You can use the console of anything.. Like replit, VS Code.. or anything that you really.. just run the command `npm index.js` and you'll be good to go..
 
+# Bot goes off once I close the code text editor
+This is normal.. unless you're hosting it with a vps.. You can do it for free if you're using replit..
+```js
+const express = require('express')
+const app = express();
+const port = 3000
+
+app.get('/', (req, res) => res.send('Ventispurr was here!!'))
+
+app.listen(port, () =>
+  console.log(`Your app is listening to http://localhost:${port}`)
+); 
+```
+Just put this at the top of the index.js file and put a few enters at the top.. then run the `npm install` command and youll be good to go
 
 For any other questions you can join my [Discord](ventispurr.cool/discord) For help from me !
