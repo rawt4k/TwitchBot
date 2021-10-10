@@ -37,6 +37,7 @@ This is a basic command for the bot.. inside the `if(message ==='!command')` is 
 client.on('chat', (channel, user, message, self) => {
   if(message === '!ExampleCMD') {     
     client.action('Ventispurr', 'This is what the bot will say when the command is run');
+    });
 ``` 
 Just copy this code and keep changing the client action and the command trigger for every command :D
 
