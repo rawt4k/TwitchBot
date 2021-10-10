@@ -6,7 +6,7 @@
     password: 'YOUR BOT OAUTH TOKEN',   <-- This is where you place the OAUTH token for the bot..
   },
   channels:['YOUR TWITCH CHANNEL'],    <-- This is YOUR Twitch user handle.. make sure it matches exactly..
-};```
+};
 
 # How to add Commands?
 
