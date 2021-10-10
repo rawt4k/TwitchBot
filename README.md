@@ -1,12 +1,12 @@
 # How It Works
 
- ```js
+
  identity: {
     username: 'YOUR BOTS USERNAME',   <-- This is where you place the username that you gave the bot account
     password: 'YOUR BOT OAUTH TOKEN',   <-- This is where you place the OAUTH token for the bot..
   },
   channels:['YOUR TWITCH CHANNEL'],    <-- This is YOUR Twitch user handle.. make sure it matches exactly..
-};```
+};
 
 # How to add Commands?
 
