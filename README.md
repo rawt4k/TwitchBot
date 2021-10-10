@@ -56,6 +56,12 @@ app.listen(port, () =>
   console.log(`Your app is listening to http://localhost:${port}`)
 ); 
 ```
-Just put this at the top of the index.js file and put a few enters at the top.. then run the `npm install` command and youll be good to go
+Just put this at the top of the index.js file and put a few enters at the top.. then run the `npm install` command.. after that run `npm index.js` again and youll notice in replit that this has shown up now.
 
-For any other questions you can join my [Discord](ventispurr.cool/discord) For help from me !
+![Screenshot 2021-10-10 175910](https://user-images.githubusercontent.com/91895035/136714252-df20f46f-0786-4b4b-9daf-f601d0d25ca7.png)
+
+Thats good if you see this.. Once you do head over to [Uptime Robot](https://uptimerobot.com/login?rt=https://uptimerobot.com/dashboard#) and create a tracker.. copy the link that replit shows and then go through the uptime robot promps. This will ping the replit every 5 minutes so the bot wont shut down.. be sure to stop it once you're done streaming though!!
+
+# For more help
+You can join the [Discord](https://ventispurr.cool/discord) to get help from me!
+
