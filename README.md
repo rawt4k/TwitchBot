@@ -59,7 +59,7 @@ app.listen(port, () =>
   console.log(`Your app is listening to http://localhost:${port}`)
 ); 
 ```
-Just put this at the top of the index.js file and put a few enters at the top.. then run the `npm install` command.. after that run `npm index.js` again and youll notice in replit that this has shown up now.
+Just put this at the top of the index.js file and put a few enters at the top.. then run the `npm install express` command.. after that run `npm index.js` again and youll notice in replit that this has shown up now.
 
 ![Screenshot 2021-10-10 175910](https://user-images.githubusercontent.com/91895035/136714252-df20f46f-0786-4b4b-9daf-f601d0d25ca7.png)
 
