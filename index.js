@@ -25,7 +25,7 @@ client.on('connected', (address, port) => {
 
 client.on('chat', (channel, user, message, self) => {
   if(message === '!ExampleCMD') {
-    client.action('Ventispurr', 'This is what the bot will say when the command is run');
+    client.action('YOUR TWITCH CHANNEL', 'This is what the bot will say when the command is run');
   }
 });
 
